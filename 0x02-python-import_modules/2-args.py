@@ -1,5 +1,5 @@
 #!/usr/bin/python3
-import sys 
+import sys
 if __name__ == '__main__':
     num = len(sys.argv) - 1
     print(num, " arguments")
