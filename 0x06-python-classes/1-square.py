@@ -5,7 +5,7 @@
 class Square:
     """size is a Private instance attribute
     Attributes:
-    	__size	 size of the square
+        __size	 size of the square
     """
     def __init__(self, __size):
-    	self.__size = __size
+        self.__size = __size
