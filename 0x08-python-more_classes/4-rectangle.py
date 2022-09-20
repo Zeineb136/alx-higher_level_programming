@@ -61,8 +61,4 @@ class Rectangle:
 
     def __rep__(self):
         """return a string representation of the rectangle"""
-<<<<<<< HEAD
-	return("Rectangle({:d}, {:d})".format(self.__width, self.__height))
-=======
         return("Rectangle({:d}, {:d})".format(self.__width, self.__height))
->>>>>>> a4b2c07b9e6fceeefe6315bd3ae4226f6782e697
