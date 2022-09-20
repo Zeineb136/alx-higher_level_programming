@@ -51,15 +51,10 @@ class Rectangle:
             raise ValueError("width must be >= 0")
         self.__width = value
 
-    def print(self):
-        """prints a rectangle"""
-        if self.__height == 0 or self.__width == 0:
-            print("0")
-        for height in range(self.__height):
-            for width in range(self.__width):
-                print('#', end='')
-        print()
-
     def __str__(self):
         """prints a rectangle"""
-        return f"{self.print()}"
+        if self.__height != 0 or self.__width != 0:
+            for height in range(self.__height):
+                for width in range(self.__width):
+                    print('#', end='')
+        print()
