@@ -21,7 +21,7 @@ class Rectangle:
         Returns:
         the perimeter of the rectangle
         """
-        return (self.__height + self.__width)
+        return ((self.__height + self.__width) * 2)
 
     @property
     def height(self):
