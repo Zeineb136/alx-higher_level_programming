@@ -53,8 +53,8 @@ class Rectangle:
 
     def __str__(self):
         """prints a rectangle"""
+        str = ""
         if self.__height != 0 or self.__width != 0:
-            for height in range(self.__height):
-                for width in range(self.__width):
-                    print('#', end='')
+            str += ('\n'.join('#' * width for _ in range(height)))
+        return (str)
         print()
