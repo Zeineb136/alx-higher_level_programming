@@ -8,7 +8,6 @@ class MyList(list):
     """class that contains list"""
 
 
-    def print_sorted(self):i
-	"""prints the list, but sorted (ascending sort)"""
-	print(sorted(self))
-
+def print_sorted(self):
+    """prints the list, but sorted (ascending sort)"""
+    print(sorted(self))
